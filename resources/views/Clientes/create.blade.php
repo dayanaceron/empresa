@@ -6,14 +6,15 @@
     <form action="{{route('Cliente.store')}}" method="post" class="form">
         {{ csrf_field() }}
      <div class="mb-3">
-       
+
+
        {{-- input doble --}}
-        
+
         <div class="mb-3">
             <label for="" class="form.label">Nombre:</label>
             <input type="text" class="form-control" name="NombreS">
-            
-            
+
+
         </div>
 
         <div class="mb-3">
@@ -32,7 +33,7 @@
         <input type="text" class="form-control" name="Direccion">
     </div>
 
-    
+
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Celular</label>
         <input type="number" class="form-control" name="Celular">
